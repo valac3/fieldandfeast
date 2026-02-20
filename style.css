@@ -147,3 +147,46 @@ section h2 {
 section p {
   margin-bottom: var(--space-sm);
 }
+
+.offerings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+
+/* Monthly basket card spans full width */
+.offering-card:last-child {
+  grid-column: 1 / -1;
+}
+
+.offering-card {
+  background-color: var(--olive-green);
+  color: var(--soft-white);
+  padding: var(--space-md);
+  border-radius: 4px;
+}
+
+.offering-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: var(--space-xs);
+  color: var(--soft-white);
+}
+
+.offering-card p {
+  font-size: 0.9rem;
+  margin-bottom: var(--space-xs);
+  max-width: none;
+}
+
+.offering-card ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: var(--space-xs);
+}
+
+.offering-card ul li {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
