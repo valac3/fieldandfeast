@@ -58,3 +58,8 @@ header {
     padding: var(--space-lg) var(--space-sm);
     text-align: center;
 }
+
+.header-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
