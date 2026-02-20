@@ -369,3 +369,33 @@ footer nav a:focus {
     min-width: 300px;
   }
 }
+
+@media (min-width: 1200px) {
+  header nav {
+    margin: 0 calc(-1 * var(--space-lg));
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .logo h1 {
+    font-size: 3.5rem;
+  }
+
+  section h2 {
+    font-size: 2.4rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  figure img {
+    height: 180px;
+  }
+
+  .btn {
+    min-width: 400px;
+  }
+}
