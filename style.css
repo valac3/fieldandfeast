@@ -83,3 +83,10 @@ header {
     color: var(--soft-white);
     letter-spacing: 0.02em;
 }
+
+.tagline {
+    font-style: italic;
+    color: var(--soft-white);
+    font-size: 1rem;
+    margin-bottom: var(--space-md);
+}
