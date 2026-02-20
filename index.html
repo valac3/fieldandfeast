@@ -84,5 +84,36 @@
                 </div>
             </div>
         </section>
+
+        <section id="gallery" aria-labelledby="gallery-heading">
+            <div class="section-inner">
+                <h2 id="gallery-heading">A Gallery of Field &amp; Feast</h2>
+                <p>
+                    Experience the elegance and artistry behind Field & Feast through our curated collection of images. From lush fields and handcrafted ingredients to beautifully plated farm-to-table creations, each photo tells the story of our commitment to excellence.
+                </p>
+
+                <div class="gallery-grid">
+                    <figure>
+                        <img 
+                            src="images/tomatoes-600w.jpg"
+                            srcset="
+                                images/tomatoes-200w.jpg 200w,
+                                images/tomatoes-300w.jpg 300w,
+                                images/tomatoes-600w.jpg 600w
+                            "
+                            sizes="
+                                (min-width: 900px) 33vw,
+                                (min-width: 600px) 50vw,
+                                100vw
+                            "
+                            alt="Heirloom tomatoes at peak ripeness"
+                            width="600"
+                            height="400"
+                        />
+
+                    </figure>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
