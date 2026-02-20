@@ -190,3 +190,37 @@ section p {
   font-size: 0.9rem;
   margin-bottom: 0.25rem;
 }
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+figure {
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: var(--soft-white);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+figure img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+figure:hover img {
+  transform: scale(1.04);
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--dark-charcoal);
+  padding: var(--space-xs);
+  text-align: center;
+}
