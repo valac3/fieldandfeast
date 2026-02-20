@@ -43,3 +43,11 @@ a {
 
     --max-width: 1200px;
 }
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--soft-white);
+    color: var(--dark-charcoal);
+    line-height: 1.7;
+    font-size: 1rem;
+}
