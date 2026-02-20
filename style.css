@@ -250,3 +250,56 @@ figcaption {
 .btn:focus {
   background-color: var(--midnight-blue);
 }
+
+footer {
+  background-color: var(--midnight-blue);
+  color: var(--soft-white);
+  padding: var(--space-lg) var(--space-sm);
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+address {
+  font-style: normal;
+  line-height: 2;
+}
+
+address p {
+  margin-bottom: 0;
+}
+
+address a {
+  color: var(--champagne-gold);
+  transition: opacity 0.2s;
+}
+
+address a:hover {
+  opacity: 0.75;
+}
+
+footer nav ul {
+  display: flex;
+  gap: var(--space-lg);
+  justify-content: center;
+  list-style: none;
+}
+
+footer nav a {
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  color: var(--champagne-gold);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+footer nav a:hover,
+footer nav a:focus {
+  border-color: var(--champagne-gold);
