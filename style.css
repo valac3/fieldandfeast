@@ -32,4 +32,14 @@ a {
     --linen: #f8f4ec;
     --dark-charcoal: #2b2b2b;
     --soft-white: #faf9f6;
+
+    --font-main: "Playfair Display", Georgia, serif;
+
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2.5rem;
+    --space-xl: 4rem;
+
+    --max-width: 1200px;
 }
