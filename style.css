@@ -51,3 +51,10 @@ body {
     line-height: 1.7;
     font-size: 1rem;
 }
+
+header {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    padding: var(--space-lg) var(--space-sm);
+    text-align: center;
+}
