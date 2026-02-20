@@ -117,3 +117,16 @@ header nav a:hover,
 header nav a:focus {
   opacity: 0.65;
 }
+
+section {
+  padding: var(--space-lg) var(--space-sm);
+  border-bottom: 1px solid var(--champagne-gold);
+}
+
+section:nth-child(odd) {
+  background-color: var(--soft-white);
+}
+
+section:nth-child(even) {
+  background-color: var(--linen);
+}
