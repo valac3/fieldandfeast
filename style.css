@@ -90,3 +90,9 @@ header {
     font-size: 1rem;
     margin-bottom: var(--space-md);
 }
+
+header nav {
+  background-color: var(--champagne-gold);
+  margin: 0 calc(-1 * var(--space-sm));
+  padding: 0.75rem var(--space-sm);
+}
