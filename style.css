@@ -303,3 +303,20 @@ footer nav a {
 footer nav a:hover,
 footer nav a:focus {
   border-color: var(--champagne-gold);
+  
+@media (min-width: 600px) {
+  .logo h1 {
+    font-size: 2.8rem;
+  }
+
+  .logo img {
+    width: 160px;
+  }
+
+  section {
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  section h2 {
+    font-size: 1.9rem;
+  }
