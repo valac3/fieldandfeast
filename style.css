@@ -328,3 +328,29 @@ footer nav a:focus {
     height: 200px;
   }
 }
+
+@media (min-width: 900px) {
+  header {
+    padding: var(--space-xl) var(--space-md) 0;
+  }
+
+  header nav {
+    margin: 0 calc(-1 * var(--space-md));
+    padding: 0.85rem var(--space-md);
+  }
+
+  .logo img {
+    width: 180px;
+  }
+
+  .logo h1 {
+    font-size: 3rem;
+  }
+
+  section {
+    padding: var(--space-xl) var(--space-lg);
+  }
+
+  section h2 {
+    font-size: 2.1rem;
+  }
