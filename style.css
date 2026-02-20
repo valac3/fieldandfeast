@@ -130,3 +130,20 @@ section:nth-child(odd) {
 section:nth-child(even) {
   background-color: var(--linen);
 }
+
+.section-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 1.6rem;
+  color: var(--midnight-blue);
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--champagne-gold);
+}
+
+section p {
+  margin-bottom: var(--space-sm);
+}
