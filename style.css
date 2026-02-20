@@ -71,3 +71,8 @@ header {
     gap: var(--space-sm);
     margin-bottom: var(--space-sm);
 }
+
+.logo img {
+    width: 140px;
+    height: auto;
+}
